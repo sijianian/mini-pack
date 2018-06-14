@@ -6,7 +6,7 @@ module.exports = {
       'error',
       {
         arrays: 'never',
-        objects: 'always',
+        objects: 'always-multiline',
         imports: 'never',
         exports: 'never',
         functions: 'ignore',
