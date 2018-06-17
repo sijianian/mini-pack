@@ -7,7 +7,7 @@ const bundleFile = require('../lib/index')
 const projectPath = process.cwd()
 const configPath = path.join(projectPath, 'minipack.config.js')
 
-function init() {
+function init () {
   let spinner = ora('正在打包配置文件...')
 
   spinner.start()
